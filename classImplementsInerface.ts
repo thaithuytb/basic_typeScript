@@ -17,7 +17,7 @@ let listStudentsFor10A_2 : student[] = [];
 listStudentsFor10A_2.push(thai);
 listStudentsFor10A_2.push(quyen);
 
-const x = listStudentsFor10A_2[0].print();
+const x:string = listStudentsFor10A_2[0].print();
 // const y = listStudentsFor10A_2[0].name;
 // const z = listStudentsFor10A_2[0].age;
 console.log(x)
