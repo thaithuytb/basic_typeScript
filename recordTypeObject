@@ -1,0 +1,12 @@
+const myRecord: Record<
+  string,
+  { object: string; action: string }
+> = {
+  key1: { object: "object1", action: "action1" },
+  key2: { object: "object2", action: "action2" },
+  key3: { object: "object3", action: "action3" },
+};
+
+console.log(myRecord["key1"]); // { object: "object1", action: "action1" }
+console.log(myRecord["key2"].object); // "object2"
+console.log(myRecord["key3"].action); // "action3"
